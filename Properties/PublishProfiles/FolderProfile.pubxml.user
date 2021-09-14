@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>D:\Projects\NetPunditUSA\bin\Release\net5.0\publish\</_PublishTargetUrl>
-    <History>True|2021-09-14T08:50:04.2997407Z;</History>
+    <History>True|2021-09-14T18:15:24.6457031Z;True|2021-09-14T17:32:42.1044152+05:30;True|2021-09-14T14:20:04.2997407+05:30;</History>
   </PropertyGroup>
 </Project>
