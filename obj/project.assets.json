@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\priya.chavadiya\\.nuget\\packages\\": {}
+    "C:\\Users\\priya\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NetPunditUSA\\NetPunditUSA\\NetPunditUSA\\NetPunditUSA.csproj",
+      "projectUniqueName": "D:\\Projects\\NetPunditUSA\\NetPunditUSA.csproj",
       "projectName": "NetPunditUSA",
-      "projectPath": "D:\\NetPunditUSA\\NetPunditUSA\\NetPunditUSA\\NetPunditUSA.csproj",
-      "packagesPath": "C:\\Users\\priya.chavadiya\\.nuget\\packages\\",
-      "outputPath": "D:\\NetPunditUSA\\NetPunditUSA\\NetPunditUSA\\obj\\",
+      "projectPath": "D:\\Projects\\NetPunditUSA\\NetPunditUSA.csproj",
+      "packagesPath": "C:\\Users\\priya\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\NetPunditUSA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\priya.chavadiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\priya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,8 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -64,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

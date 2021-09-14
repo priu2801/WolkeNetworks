@@ -33,20 +33,5 @@ namespace NetPunditUSA.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-        public IActionResult PermanetStaffing()
-        {
-            return View();
-        }
-
-        public IActionResult ContractToHire()
-        {
-            return View();
-        }
-
-        public IActionResult ContractStaffing()
-        {
-            return View();
-        }
     }
 }

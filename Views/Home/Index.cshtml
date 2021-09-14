@@ -1,25 +1,4 @@
-﻿<!-- ======= Header ======= -->
-<header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-
-        <h1 class="logo me-auto"><a href="@Url.Action("Index","Home")">Net Pundit-USA</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto"><img src="~/assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-
-    </div>
-</header><!-- End Header -->
-<!-- ======= Hero Section ======= -->
+﻿<!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
 
     <div class="container">
@@ -156,42 +135,110 @@
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
         <div class="container" data-aos="fade-up">
-
             <div class="section-title">
                 <h2>Services</h2>
                 <p> Our holistic approach and workforce solutions to Contract, Contract-to-hire and Permanent hire staffing makes it easier for you to achieve your employment goals. We specialize in the recruitment of software professionals at all levels – software programmers, software engineers, architects, database administrators, systems administrators, project leaders, project managers, business managers, etc..</p>
             </div>
-
             <div class="row">
                 <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-user"></i></div>
-                        <h4><a href="@Url.Action("PermanetStaffing","Home")">Permanent Staffing</a></h4>
+                        <h4><a data-bs-toggle="collapse" data-bs-target="#faq-list-1" aria-expanded="false">Permanent Staffing</a></h4>
                         <p>RELIC SOLUTIONS is a perfect solution for companies who need to hire technical resources but are short of time and recruiting resources. Hiring RELIC SOLUTIONS also brings better penetration in your dream workforce as we can access performers for conversions in your favor.</p>
                     </div>
                 </div>
-
                 <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-user-plus"></i></div>
-                        <h4><a href="@Url.Action("ContractToHire","Home")">Contract To Hire</a></h4>
+                        <h4><a data-bs-toggle="collapse" data-bs-target="#faq-list-2" aria-expanded="false">Contract To Hire</a></h4>
                         <p>Temp-to-hire gives the client a great hiring advantage – the ability to evaluate a potential candidate on the job before making a commitment. This kind of hands-on assessment leads to more informed hiring decisions.</p>
                     </div>
                 </div>
-
                 <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-user"></i></div>
-                        <h4><a href="@Url.Action("ContractStaffing","Home")">Contract Staffing</a></h4>
+                        <h4><a data-bs-toggle="collapse" data-bs-target="#faq-list-3" aria-expanded="false">Contract Staffing</a></h4>
                         <p>RELIC SOLUTIONS evaluates a company’s need for contract staffing, we explore the potential for a healthy, productive relationship based on your corporate values.</p>
                     </div>
                 </div>
-
-
+            </div>
+        </div>
+    </section><!-- End Services Section -->
+    <section id="faq" class="faq section-bg" style="margin-top: 0px; padding-top: 0px; padding-bottom: 30px;">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+            <div class="faq-list">
+                <ul>
+                    <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse collapsed" data-bs-target="#faq-list-1" aria-expanded="false">Permanent Staffing <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list" style="text-align: justify; text-justify: inter-word;">
+                            <p>
+                                RELIC Solutions Permanent Hire Solutions are a perfect solution for companies who need to hire technical resources but are short of time and recruiting resources. Hiring RELIC Solutions also brings better penetration in your dream workforce as we can access performers for conversions in your favor. Permanent Hiring solutions offer savings on your staff’s time, advertising budgets and competitive edge with access to a larger and qualified pool of candidates.
+                            </p>
+                            <p>
+                                Permanent Hire Solutions give companies the ability to immediately hire RELIC Consultants as internal employees. With Permanent Hire Solutions, RELIC Solutions and the company agree on the terms of the Permanent Hire placement which typically include the fee percentage and a guarantee provision should the consultant not work out. Our professional recruiters deploy several practices to ensure that you get a right candidate for filling your permanent vacancies. These include:
+                            </p>
+                            <br />
+                            <p>
+                                &bull; Assigning a dedicated Recruitment Manager and/or executive to our clients for managing their permanent requirements<br />
+                                &bull; Seek out exception professionals through our extensive network. These resources are usually not traceable except through some contact or referral. <br />
+                                &bull; High degree of screening process <br />
+                                &bull; Special interview methods<br />
+                                &bull; Multi-layered reference techniques
+                            </p>
+                        </div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed" aria-expanded="false">Contract To Hire<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list" style="">
+                            <div class="container">
+                                <div class="col-md-12" style="text-align: justify; text-justify: inter-word;">
+                                    <p>
+                                        Temp-to-hire gives the client a great hiring advantage – the ability to evaluate a potential candidate on the job before making a commitment. This kind of hands-on assessment leads to more informed hiring decisions.
+                                    </p>
+                                    <p>
+                                        Hiring the wrong person can wreak havoc on an organization – so it’s always safer to “try before you buy.” Moreover, sometimes you have a technical contingent worker who fits perfectly into your organization. Should you and the contingent worker placed by RELIC Solutions decide you’d like to change the nature of the relationship to full time employment, RELIC Solutions is happy to accommodate.
+                                    </p>
+                                    <p>
+                                        Contract-to-hire staffing helps your business by acting as a bridge to full-time employment through our contract-to-hire program, you have the opportunity to evaluate a selected candidate in your business environment before making a hiring decision.
+                                    </p>
+                                    <br />
+                                    <h4>Advantage of Contract to Hire:</h4>
+                                    <p>
+                                        &bull; You won’t have to waste time finding the right candidate.<br />
+                                        &bull; Acts as a bridge to full time employment.<br />
+                                        &bull; Opportunity to review abilities before hiring full time.<br />
+                                        &bull; No employer risks.<br />
+                                        &bull; Gives you confidence in your hiring decision.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Contract Staffing<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                            <section class="inner-page">
+                                <div class="container">
+                                    <div class="col-md-12" style="text-align: justify; text-justify: inter-word;">
+                                        <h4>
+                                            For a contract employment agency to provide its clients the best service possible, it must understand the clients’ needs.
+                                        </h4>
+                                        <p>
+                                            Our approach provides your business with dedicated staffing consultants. The result is increased responsiveness, as well as accountability, because the consultant who creates your staffing solution is also responsible for implementing it. Highly trained and qualified, our agents are experts in screening talent and assessing proficiency. We also conduct focused behavioral interviews and comprehensive skill assessments to ensure you get the exact staffing solution you need.
+                                        </p>
+                                        <p>
+                                            When RELIC Solutions evaluates a company’s need for contract staffing, we explore the potential for a healthy, productive relationship based on your corporate values.
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                </ul>
             </div>
 
         </div>
-    </section><!-- End Services Section -->
+    </section>
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
