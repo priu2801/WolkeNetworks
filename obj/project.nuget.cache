@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "K+aye51RxQAYmaSZ44j4rsJIqhFcOhUro0RFmKhtaB0XJmec6gAlEBXRhxSs48xAx8zdKA18DXjfS8CxIIJWlQ==",
+  "dgSpecHash": "hvaHXowOVlblfZhpKeBoKngmkxtHD92j5MyqfHulOtdCf+tvtzKQLZrhT+V2+9E/vZn+ZmsoTDVTLZWTq3uPDQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\NetPunditUSA\\NetPunditUSA.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\priya\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512"
+  ],
   "logs": []
 }

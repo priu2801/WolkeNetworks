@@ -20,7 +20,11 @@
 
       //"Template Main CSS File
       "wwwroot/assets/css/style.css"
-    ]
+    ],
+    "minify": {
+      "enabled": false,
+      "renameLocals": true
+    }
   },
 
   {
@@ -37,6 +41,10 @@
 
       // Template Main JS File 
       "wwwroot/assets/js/main.js"
-    ]
+    ],
+    "minify": {
+      "enabled": false,
+      "renameLocals": true
+    }
   }
 ]

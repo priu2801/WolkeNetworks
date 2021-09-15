@@ -12,4 +12,12 @@
     <None Include="bundleconfig.json" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\css\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+  </ItemGroup>
+
 </Project>

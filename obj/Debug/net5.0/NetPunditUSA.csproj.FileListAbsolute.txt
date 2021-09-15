@@ -80,4 +80,3 @@ D:\Projects\NetPunditUSA\obj\Debug\net5.0\ref\NetPunditUSA.dll
 D:\Projects\NetPunditUSA\obj\Debug\net5.0\NetPunditUSA.pdb
 D:\Projects\NetPunditUSA\obj\Debug\net5.0\NetPunditUSA.genruntimeconfig.cache
 D:\Projects\NetPunditUSA\obj\Debug\net5.0\NetPunditUSA.csproj.CopyComplete
-D:\Projects\NetPunditUSA\obj\Debug\net5.0\NetPunditUSA.csproj.AssemblyReference.cache
