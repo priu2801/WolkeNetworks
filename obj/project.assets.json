@@ -46,19 +46,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\priya\\.nuget\\packages\\": {}
+    "C:\\Users\\priya.chavadiya\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\NetPunditUSA\\NetPunditUSA.csproj",
-      "projectName": "NetPunditUSA",
-      "projectPath": "D:\\Projects\\NetPunditUSA\\NetPunditUSA.csproj",
-      "packagesPath": "C:\\Users\\priya\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\NetPunditUSA\\obj\\",
+      "projectUniqueName": "D:\\Others\\WolkenNetworks\\WolkeNetworks\\WolkeNetworks.csproj",
+      "projectName": "WolkeNetworks",
+      "projectPath": "D:\\Others\\WolkenNetworks\\WolkeNetworks\\WolkeNetworks.csproj",
+      "packagesPath": "C:\\Users\\priya.chavadiya\\.nuget\\packages\\",
+      "outputPath": "D:\\Others\\WolkenNetworks\\WolkeNetworks\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\priya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\priya.chavadiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +70,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "net5.0": {
@@ -107,7 +112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

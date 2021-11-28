@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hvaHXowOVlblfZhpKeBoKngmkxtHD92j5MyqfHulOtdCf+tvtzKQLZrhT+V2+9E/vZn+ZmsoTDVTLZWTq3uPDQ==",
+  "dgSpecHash": "S9mafS7uELYX5zgGF7bYEjHrwiCWiy8HJCbp9fQCWJK9D71peXp3PH5ri16m9l6q4pwU4i3XzfB61dzvouMzcA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\NetPunditUSA\\NetPunditUSA.csproj",
+  "projectFilePath": "D:\\Others\\WolkenNetworks\\WolkeNetworks\\WolkeNetworks.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\priya\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512"
+    "C:\\Users\\priya.chavadiya\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512"
   ],
   "logs": []
 }

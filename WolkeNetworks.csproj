@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <None Include="bundleconfig.json" />
+    <None Include="WolkeNetworks.csproj.user" />
+    <None Include="WolkeNetworks.sln" />
   </ItemGroup>
 
   <ItemGroup>
